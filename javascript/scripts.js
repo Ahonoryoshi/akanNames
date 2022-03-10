@@ -5,5 +5,6 @@ $(document).ready(function(){
     var dateInput=$("input#date").val();
     var genderInput=$("input#gender").val();
     let d = new Date(dateInput);
+    let day = d.getDay();
 
 });
