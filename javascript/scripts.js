@@ -20,4 +20,5 @@ $(document).ready(function(){
     else{
             alert("Please Enter a Valid Gender")
         }
+    $("#yourInput").show();
 });
