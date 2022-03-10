@@ -17,6 +17,7 @@ $(document).ready(function(){
             $(".bday").append(weekDays[day]);
             $(".gen").append(femaleNames[day]);
         }
-    
-
+    else{
+            alert("Please Enter a Valid Gender")
+        }
 });
