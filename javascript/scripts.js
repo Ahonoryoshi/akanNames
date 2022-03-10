@@ -13,6 +13,10 @@ $(document).ready(function(){
             $(".bday").append(weekDays[day]);
             $(".gen").append(maleNames[day]);
         }
+    else if (genderInput==="female"){
+            $(".bday").append(weekDays[day]);
+            $(".gen").append(femaleNames[day]);
+        }
     
 
 });
