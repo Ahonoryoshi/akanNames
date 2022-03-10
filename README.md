@@ -5,7 +5,7 @@ An application that takes in user's date of birth and gender, then calculates th
 ## Description
 {This web application will ask the user to input his or her date of birth, with which it will calculate the week day the user was born. It will then display an Akan name. The page consists of three parts: a landing page with a short description, a form in which the user inputs DOB and gender, and finally a place where out put is displayed}!
 
-
+Click the link below to see an image of the page in action
 [Screenshot from 2022-03-10 07-36-35](https://user-images.githubusercontent.com/90982137/157590617-69fb643d-e5d4-4615-acff-ae4f0691baba.png)
 
 
