@@ -1,3 +1,34 @@
 #yourInput {
   display: none;
 }
+.imp {
+  color: rgb(235, 8, 45);
+  font-size: larger;
+}
+h1 {
+  color: brown;
+}
+h3 {
+  color: goldenrod;
+  font-style: italic;
+}
+h2 {
+  color: blue;
+}
+body {
+  background-color: aliceblue;
+}
+.bday {
+  color: deeppink;
+  font-size: xx-large;
+}
+.gen {
+  color: deeppink;
+  font-size: xx-large;
+}
+.solid {
+  border: solid red;
+}
+#cont2 {
+  border: solid burlywood;
+}

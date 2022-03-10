@@ -15,7 +15,7 @@
     <script src="javascript/scripts.js"></script>
   </head>
   <body>
-    <h1>Akam name generator</h1>
+    <h1>Akan name generator</h1>
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -62,30 +62,44 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <h2>This is an Akan name Generator</h2>
-      <div id="blanks">
-        <form>
-          <div class="form-group">
-            <label for="date">Enter your birthday</label>
-            <input id="date" class="form-control" type="date" required />
+    <div class="container" id="cont2">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>This is an Akan name Generator</h2>
+          <div id="blanks">
+            <form>
+              <div class="form-group">
+                <label for="date">Enter your birthday</label>
+                <input id="date" class="form-control" type="date" required />
+              </div>
+              <div class="form-group">
+                <label for="gender"
+                  >Enter Your Gender here. Type either "male" or "female"
+                  without quotes</label
+                >
+                <input id="gender" class="form-control" type="text" required />
+              </div>
+              <button type="submit" class="btn">Get Akan name</button>
+            </form>
           </div>
-          <div class="form-group">
-            <label for="gender"
-              >Enter Your Gender here. Type either "male" or "female" without
-              quotes</label
-            >
-            <input id="gender" class="form-control" type="text" required />
+        </div>
+        <div class="col-md-6">
+          <p></p>
+          <div class="solid">
+            <div id="yourInput">
+              <h1>This is your Akan name!!!</h1>
+              <p>
+                You were born on a <span class="bday"></span> so your Akan name
+                is <span class="gen"></span> !!
+              </p>
+              <p></p>
+            </div>
+            <p></p>
+            <p>Akan name will display inside this box</p>
+            <p></p>
+            <p></p>
           </div>
-          <button type="submit" class="btn">Get Akan name</button>
-          <div id="yourInput">
-            <h1>This is your Akan name!!!</h1>
-            <p>
-              You were born on a <span class="bday"></span> so your Akan name is
-              <span class="gen"></span> !!
-            </p>
-          </div>
-        </form>
+        </div>
       </div>
     </div>
   </body>
